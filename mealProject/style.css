@@ -1,0 +1,84 @@
+
+
+body {
+    width: 100%;
+    background-color:#305172;
+    color: white;
+}
+
+/* header heading section */
+#heading {
+    margin-top: 100px;
+}
+
+
+/* header navbar */
+#nav {
+    background-color: #05192c;
+}
+
+/* header search bar section */
+#search-bar {
+    max-width: 600px;
+}
+
+#search-bar input {
+    height: 50px;
+    border-radius: 20px;
+}
+
+
+/* meal card */
+#card {
+    background-color: #081e5e;
+    padding: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#favbtn {
+    color: aliceblue;
+    margin-right: 85%;
+    font-size: larger;
+}
+
+#card img {
+    size: 20px;
+    border-radius: 50%;
+}
+
+
+/* meal details container */
+#meal-details{
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:#0d0c0c ;
+}
+#meal-header{
+    width: 70%;
+    margin: auto;
+}
+#meal-thumbail img{
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+#meal-instruction{
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+/* favourites offcanvus */
+#favourites-body{
+    background-color:#212529 ;
+}
